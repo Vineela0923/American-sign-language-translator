@@ -15,7 +15,7 @@ User-friendly output display
 
 # Tech Stack
 Programming Language: Python
-# Libraries & Frameworks:
+#Libraries & Frameworks:
 TensorFlow / Keras
 OpenCV
 NumPy
