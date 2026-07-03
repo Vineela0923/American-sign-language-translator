@@ -40,10 +40,55 @@ This project is a **real-time American Sign Language (ASL) recognition system** 
 
 ## 🧠 System Architecture  
 
-```text
+
 Webcam Input → Image Preprocessing → Hand Landmark Detection (MediaPipe)
 → Feature Extraction → CNN Model → Prediction → Display Output
 
 Each frame is processed  
 Model predicts ASL alphabet  
 Output displayed as text
+
+---
+
+## 🛠️ Tech Stack  
+
+### 👨‍💻 Programming Language  
+- Python  
+
+---
+
+### 🤖 AI / Machine Learning  
+- Deep Learning (CNN)  
+- Computer Vision  
+- Image Processing  
+- Feature Engineering  
+
+---
+
+### 📚 Libraries & Frameworks  
+- OpenCV → Image processing & webcam handling  
+- MediaPipe → Hand landmark detection  
+- TensorFlow / Keras → Model building & training  
+- NumPy → Numerical computations  
+- Pandas → Data handling & preprocessing  
+
+---
+
+### ⚙️ Tools & Technologies  
+- Git & GitHub → Version control  
+- VS Code / Jupyter Notebook → Development  
+- Webcam → Real-time input system  
+
+---
+
+### 📊 Dataset  
+- Custom Hand Landmark Dataset (`asl_landmarks.csv`)  
+- Extracted using MediaPipe hand tracking  
+
+---
+
+### 🧠 Model Details  
+- Model: Convolutional Neural Network (CNN)  
+- Input: Hand landmark coordinates  
+- Output: ASL Alphabets  
+- Training Script: `train_model.py`  
