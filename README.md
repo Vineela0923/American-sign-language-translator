@@ -1,76 +1,49 @@
-# American-sign-language-translator
-# Overview
+# 🖐️ American Sign Language (ASL) Recognition System  
 
-Communication barriers between hearing-impaired individuals and others can limit effective interaction.
-This project presents a real-time American Sign Language (ASL) recognition system using deep learning techniques to bridge this gap.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9-blue?logo=python">
+  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green?logo=opencv">
+  <img src="https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange?logo=tensorflow">
+  <img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-red">
+  <img src="https://img.shields.io/badge/Status-Active-success">
+</p>
 
-The system detects hand gestures from a webcam and translates them into corresponding ASL alphabets in real time.
+---
 
-# Features
-Real-time ASL alphabet recognition
+## 📌 Overview  
 
-Webcam-based gesture detection
+This project is a **real-time American Sign Language (ASL) recognition system** that detects hand gestures using a webcam and translates them into readable text using **Deep Learning and Computer Vision**.
 
-Deep learning model using CNN
+💡 The goal is to **bridge the communication gap** between hearing-impaired individuals and others through intelligent gesture recognition.
 
-Image preprocessing & augmentation
+---
 
-Fast and accurate predictions
+## 🎯 Objectives  
 
-User-friendly output display
+- Build a real-time gesture recognition system  
+- Accurately classify ASL alphabets  
+- Enable seamless human-computer interaction  
+- Improve accessibility using AI  
 
-# Tech Stack
-Programming Language: Python
-# Libraries & Frameworks:
-TensorFlow / Keras
+---
 
-OpenCV
+## 🚀 Features  
 
-NumPy
+- Real-time hand gesture detection  
+- Landmark-based feature extraction  
+- Deep Learning-based classification (CNN)  
+- Fast and accurate predictions  
+- Lightweight and efficient system  
+- User-friendly interface  
 
-Pandas
+---
 
-Scikit-learn
+## 🧠 System Architecture  
 
-# Project Structure
-American-sign-language-translator/
+```text
+Webcam Input → Image Preprocessing → Hand Landmark Detection (MediaPipe)
+→ Feature Extraction → CNN Model → Prediction → Display Output
 
-│── README.md
-
-│── asl_landmarks.csv
-
-│── class_indices.pkl.html
-
-│── h5.html
-
-│── preprocess_landmarks.py
-
-│── real_time_interface.py
-
-│── train_model.py
-
-# How It Works
-# 1.Data Collection
-Dataset contains labeled images of ASL hand gestures.
-# 2.Preprocessing
-Resizing images
-
-Normalization
-
-Data augmentation (rotation, flipping, zooming)
-# 3.Model Training
-A Convolutional Neural Network (CNN) learns:
-
-Hand shape
-
-Orientation
-
-Finger positioning
-# 4.Real-Time Prediction
-Webcam captures live video
-
-Each frame is processed
-
-Model predicts ASL alphabet
-
+Each frame is processed  
+Model predicts ASL alphabet  
 Output displayed as text
